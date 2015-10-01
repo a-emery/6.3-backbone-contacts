@@ -19,3 +19,27 @@ body {
   color: $base-font-color;
   font-family: $base-font-family;
 }
+
+.contactForm {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid $medium-gray;
+  margin: 30px;
+  float: left;
+}
+.contactForm input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contactsList {
+  float: right;
+  width: 300px;
+  border: 1px solid $medium-gray;
+  margin: 30px;
+  text-align: center;
+}
+
+.contactsList h1 {
+  display: inline-block;
+}
